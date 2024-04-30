@@ -112,6 +112,9 @@ padding: 10px;
     cursor: pointer;
     z-index: 100;
  }
+ section{
+    margin-left: 14%;
+ }
  .container,.popup-image img{
 position: absolute;
 top: 50% ; left: 50%;
@@ -130,6 +133,7 @@ margin-bottom: 35px;
 .article-headline-title ,.article-headline-des {
     color: #000;
 font-weight: 400;
+margin-left: 0;
 }
 .article-headline-title {
 color: #2b2c2d;

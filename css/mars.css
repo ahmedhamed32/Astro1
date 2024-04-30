@@ -22,8 +22,12 @@ background-attachment: fixed;
     text-transform: uppercase;
     height: 100px;
     padding: 0 30px;
+    font-size: x-large;
     
 
+}
+body{
+    height: 100%;
 }
 .logo{
 
@@ -86,13 +90,16 @@ transition: transform 0.2s ;
     bottom: 10px;
     right: 50px;
     border-radius: 6px;
-} */
+*/
 .head{
     position: relative;
     font-style:initial ;
     right: -30px;
     bottom: 10px;
     text-transform: uppercase;
+}
+.content-center{
+    margin-bottom: 0%;
 }
 .content-center p{
     font-size:16px ;
@@ -109,7 +116,7 @@ p{
 }
 .box-right{
     background-color: transparent;
-    margin-bottom: 1em;
+   margin-bottom: 1em;
     padding: 0;
     border-radius: 0;
     box-shadow: none;
@@ -184,6 +191,12 @@ right: -930px;
 top: -1120px;
 width: 190px;
   }
+  .box-right{
+    margin-left: 15%;
+  }
+  .box-right-2{
+    margin-left: 15%;
+  }
 .box-right-title-2{
     background-color: #00857a;
     border-radius: 5px 5px 0 0;
@@ -215,8 +228,9 @@ width: 190px;
     border-radius:6px ;
     padding: 21px;
     position: relative;
-    left: -792px;
+    left: -870px;
     bottom: 791px;
+    margin-right: 10%;
    }
 .media img{
     max-width: 100%;
@@ -234,7 +248,7 @@ width: 190px;
     width: 120px;
     width: 17%;
     position: relative;
-    right: -140px;
+    right: -300px;
     top: -1912px;
     height: 75px;
     background: rgba(226, 220, 221,.7);
@@ -378,7 +392,8 @@ width: 190px;
         position: relative;
         /* padding: 55px 0; */
         margin: 20px;
-
+        margin-top: -600px;
+        font-size: xx-large;
         
         
         

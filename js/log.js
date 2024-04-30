@@ -11,7 +11,7 @@ function Validateform() {
     } else if (age === "3") {
         alert("We recommend you to visit the Advanced Section!\nThanks for visiting us.");
     }
-    window.location.href = "../main page.html";
+    window.location.href = "main page.html";
     return false; 
 }
 
